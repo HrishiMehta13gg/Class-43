@@ -1,0 +1,69 @@
+
+Players-   PAC-MAN
+
+Nonplayers-Ghosts
+
+Goal-      Eat All food and berries to win
+
+
+To avoid-  Do not get touched by the ghost or you will lose a life,
+           Eat Berries to eat ghost for certain period of time.
+
+Rules-      
+*Player_   
+rules .    3 lives only.      
+           4 Ghosts(NCP)
+           Eat Berries to eat Ghosts for 10 seconds. 
+           Ghost Can be reborn unlimited time.
+           Lose Game if all lifes are gone.
+           Eat all food on map and berries to win.
+
+Game Type- Balanced,strategy.
+
+Game_ 
+Adaptivity-Difficulty should be increased after every level of the game.
+
+*Ncp_     -if Pac-Man eats Food (follow:true)
+Rules     -if Pac-Man eats berries (Follow:false)(randomposition:True) 
+
+Element   -Ghosts moves randomly
+of 
+Chance
+
+Elements  -Pac-Man moves on the skill of the player
+of              
+skill            
+                 
+Colour    -Pac-Man(Yellow)
+          Ncps
+          Ncp1-(pink)
+          Ncp2-(cyan)
+          Ncp3-(red)
+          Ncp4-(orange)
+         
+          Ncp_All-[When Berries eaten(dark Blue)]
+          Ncp_All-[when Berries effect is going to wear off in 2 seconds
+                  {colour:flash(white,DarkBlue)}
+          Ncp_All-[When Berries effect wears off all colours back to 
+                  normal]    
+
+Feedback  -Win:Good Job You Won, You have been Practising
+               Way To go Knew i could count on you to win
+               Your friends must be jelous of your score you set.
+          lose:Bad luck,Try Again Next time.
+
+Scores    -1+ score every food . you eat
+          200+ score every ghost you eat
+          100+ score if you eat the Bonus fruits which will come at 
+          random time,in random rounds.  
+                        
+Sounds &                         
+Animation              
+                        
+Story/    -Pac-Man the hungry eating foody with the biggest belly. 
+Intro     -Ghosts are the protecters of the ancients garden with
+          infinite food.
+          Super Power Berries from the pac world tree give pacman
+          the power to eat ghosts and send back to the nether realm 
+          portal to respawn. 
+                           
